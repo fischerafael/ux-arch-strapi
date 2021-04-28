@@ -32,6 +32,115 @@
       "type": "uid",
       "targetField": "name",
       "required": true
+    },
+    "situation_high": {
+      "type": "integer",
+      "required": false,
+      "default": 0
+    },
+    "situation_level": {
+      "type": "integer",
+      "default": 0
+    },
+    "situation_low": {
+      "type": "integer",
+      "default": 0
+    },
+    "type_interior": {
+      "type": "integer",
+      "default": 0
+    },
+    "type_exterior": {
+      "type": "integer",
+      "default": 0
+    },
+    "type_transition": {
+      "type": "integer",
+      "default": 0
+    },
+    "size_very_small": {
+      "type": "integer",
+      "default": 0
+    },
+    "size_small": {
+      "type": "integer",
+      "default": 0
+    },
+    "size_medium": {
+      "type": "integer",
+      "default": 0
+    },
+    "size_big": {
+      "type": "integer",
+      "default": 0
+    },
+    "size_very_big": {
+      "default": 0,
+      "type": "integer"
+    },
+    "height_low": {
+      "type": "integer",
+      "default": 0
+    },
+    "height_medium": {
+      "type": "integer",
+      "default": 0
+    },
+    "height_high": {
+      "type": "integer",
+      "default": 0
+    },
+    "height_no_height": {
+      "type": "integer",
+      "default": 0
+    },
+    "composition_ortho": {
+      "type": "integer",
+      "default": 0
+    },
+    "composition_organic": {
+      "type": "integer",
+      "default": 0
+    },
+    "composition_single_volume": {
+      "type": "integer",
+      "default": 0
+    },
+    "composition_few_volumes": {
+      "type": "integer",
+      "default": 0
+    },
+    "composition_many_volumes": {
+      "type": "integer",
+      "default": 0
+    },
+    "materials_natural": {
+      "type": "integer",
+      "default": 0
+    },
+    "materials_artifitial": {
+      "type": "integer",
+      "default": 0
+    },
+    "texture_smooth": {
+      "type": "integer",
+      "default": 0
+    },
+    "texture_rough": {
+      "type": "integer",
+      "default": 0
+    },
+    "tone_greyscale": {
+      "type": "integer",
+      "default": 0
+    },
+    "tone_vivid": {
+      "type": "integer",
+      "default": 0
+    },
+    "tone_pastel": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
