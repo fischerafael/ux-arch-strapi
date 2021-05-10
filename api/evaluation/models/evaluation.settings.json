@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "evaluations",
+  "info": {
+    "name": "Evaluation",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "score": {
+      "type": "decimal",
+      "default": 0,
+      "required": true,
+      "max": 1,
+      "min": 0
+    },
+    "project": {
+      "model": "project",
+      "via": "evaluations"
+    },
+    "user": {
+      "columnName": "user",
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "evaluation"
+    }
+  }
+}

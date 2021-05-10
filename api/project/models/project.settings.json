@@ -141,6 +141,10 @@
     "tone_pastel": {
       "type": "integer",
       "default": 0
+    },
+    "evaluations": {
+      "via": "project",
+      "collection": "evaluation"
     }
   }
 }
