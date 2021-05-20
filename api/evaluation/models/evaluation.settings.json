@@ -61,6 +61,10 @@
     "have_been": {
       "type": "boolean",
       "default": false
+    },
+    "version": {
+      "type": "string",
+      "required": true
     }
   }
 }
