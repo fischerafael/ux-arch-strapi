@@ -12,9 +12,9 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "score": {
+    "rest": {
       "type": "decimal",
-      "default": 0,
+      "default": 0.5,
       "required": true,
       "max": 1,
       "min": 0
@@ -28,6 +28,39 @@
       "plugin": "users-permissions",
       "model": "user",
       "via": "evaluation"
+    },
+    "study": {
+      "type": "decimal",
+      "default": 0.5,
+      "required": true,
+      "max": 1,
+      "min": 0
+    },
+    "leisure": {
+      "type": "decimal",
+      "default": 0.5,
+      "required": true,
+      "max": 1,
+      "min": 0.5
+    },
+    "work": {
+      "type": "decimal",
+      "default": 0.5,
+      "required": true,
+      "max": 1,
+      "min": 0
+    },
+    "mandatory": {
+      "type": "decimal",
+      "default": 0.5,
+      "required": true,
+      "max": 1,
+      "unique": false,
+      "min": 0
+    },
+    "have_been": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

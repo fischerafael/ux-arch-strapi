@@ -145,6 +145,161 @@
     "evaluations": {
       "via": "project",
       "collection": "evaluation"
+    },
+    "color_red": {
+      "type": "decimal",
+      "default": 0
+    },
+    "color_orange": {
+      "type": "decimal",
+      "default": 0
+    },
+    "color_yellow": {
+      "type": "decimal",
+      "default": 0
+    },
+    "color_green": {
+      "type": "decimal",
+      "default": 0
+    },
+    "color_blue": {
+      "type": "decimal",
+      "default": 0
+    },
+    "color_purple": {
+      "type": "decimal",
+      "default": 0
+    },
+    "color_pink": {
+      "type": "decimal"
+    },
+    "color_white": {
+      "type": "decimal",
+      "default": 0
+    },
+    "color_black": {
+      "type": "decimal",
+      "default": 0
+    },
+    "light_intense": {
+      "type": "decimal",
+      "default": 0
+    },
+    "light_medium": {
+      "type": "decimal",
+      "default": 0
+    },
+    "light_focused": {
+      "type": "decimal",
+      "default": 0
+    },
+    "light_spread": {
+      "type": "decimal",
+      "default": 0
+    },
+    "light_low": {
+      "type": "decimal",
+      "default": 0
+    },
+    "population_intense": {
+      "type": "decimal",
+      "default": 0
+    },
+    "population_medium": {
+      "type": "decimal",
+      "default": 0
+    },
+    "population_low": {
+      "type": "decimal",
+      "default": 0
+    },
+    "movement_intense": {
+      "type": "decimal",
+      "default": 0
+    },
+    "movement_medium": {
+      "type": "decimal"
+    },
+    "movement_low": {
+      "type": "decimal"
+    },
+    "period_day": {
+      "type": "decimal"
+    },
+    "period_night": {
+      "type": "decimal"
+    },
+    "weather_sun": {
+      "type": "decimal"
+    },
+    "weather_rain": {
+      "type": "decimal"
+    },
+    "weather_cloud": {
+      "type": "decimal"
+    },
+    "weather_snow": {
+      "type": "decimal"
+    },
+    "weather_fog": {
+      "type": "decimal"
+    },
+    "season_summer": {
+      "type": "decimal"
+    },
+    "season_spring": {
+      "type": "decimal"
+    },
+    "season_winter": {
+      "type": "decimal"
+    },
+    "season_fall": {
+      "type": "decimal"
+    },
+    "temperature_negative": {
+      "type": "decimal"
+    },
+    "temperature_below_ten": {
+      "type": "decimal"
+    },
+    "temperature_below_twenty": {
+      "type": "decimal"
+    },
+    "temperature_below_thirty": {
+      "type": "decimal"
+    },
+    "temperature_above_thirty": {
+      "type": "decimal"
+    },
+    "context_fields": {
+      "type": "decimal"
+    },
+    "context_city_low": {
+      "type": "decimal"
+    },
+    "context_city_medium": {
+      "type": "decimal"
+    },
+    "context_city_high": {
+      "type": "decimal"
+    },
+    "context_forest": {
+      "type": "decimal"
+    },
+    "context_mountain": {
+      "type": "decimal"
+    },
+    "context_water": {
+      "type": "decimal"
+    },
+    "context_ice": {
+      "type": "decimal"
+    },
+    "context_desert": {
+      "type": "decimal"
+    },
+    "context_landmark": {
+      "type": "decimal"
     }
   }
 }
