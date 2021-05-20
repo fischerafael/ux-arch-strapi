@@ -41,7 +41,7 @@
       "default": 0.5,
       "required": true,
       "max": 1,
-      "min": 0.5
+      "min": 0
     },
     "work": {
       "type": "decimal",
@@ -60,7 +60,8 @@
     },
     "have_been": {
       "type": "boolean",
-      "default": false
+      "default": false,
+      "required": true
     },
     "version": {
       "type": "string",
