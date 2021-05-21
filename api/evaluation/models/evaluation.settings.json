@@ -20,8 +20,8 @@
       "min": 0
     },
     "project": {
-      "model": "project",
-      "via": "evaluations"
+      "via": "evaluations",
+      "model": "project"
     },
     "user": {
       "columnName": "user",

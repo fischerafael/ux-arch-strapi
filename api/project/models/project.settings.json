@@ -35,7 +35,7 @@
     },
     "situation_high": {
       "type": "integer",
-      "required": false,
+      "required": true,
       "default": 0
     },
     "situation_level": {
@@ -143,8 +143,8 @@
       "default": 0
     },
     "evaluations": {
-      "via": "project",
-      "collection": "evaluation"
+      "collection": "evaluation",
+      "via": "project"
     },
     "color_red": {
       "type": "decimal",
@@ -256,50 +256,45 @@
     "season_fall": {
       "type": "decimal"
     },
-    "temperature_negative": {
-      "type": "decimal"
-    },
-    "temperature_below_ten": {
-      "type": "decimal"
-    },
-    "temperature_below_twenty": {
-      "type": "decimal"
-    },
-    "temperature_below_thirty": {
-      "type": "decimal"
-    },
-    "temperature_above_thirty": {
-      "type": "decimal"
-    },
     "context_fields": {
-      "type": "decimal"
+      "type": "integer",
+      "default": 0
     },
     "context_city_low": {
-      "type": "decimal"
+      "type": "integer",
+      "default": 0
     },
     "context_city_medium": {
-      "type": "decimal"
+      "type": "integer",
+      "default": 0
     },
     "context_city_high": {
-      "type": "decimal"
+      "type": "integer",
+      "default": 0
     },
     "context_forest": {
-      "type": "decimal"
+      "type": "integer",
+      "default": 0
     },
     "context_mountain": {
-      "type": "decimal"
+      "type": "integer",
+      "default": 0
     },
     "context_water": {
-      "type": "decimal"
+      "type": "integer",
+      "default": 0
     },
     "context_ice": {
-      "type": "decimal"
+      "type": "integer",
+      "default": 0
     },
     "context_desert": {
-      "type": "decimal"
+      "type": "integer",
+      "default": 0
     },
     "context_landmark": {
-      "type": "decimal"
+      "type": "integer",
+      "default": 0
     }
   }
 }
