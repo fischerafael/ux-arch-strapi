@@ -27,7 +27,7 @@
       "columnName": "user",
       "plugin": "users-permissions",
       "model": "user",
-      "via": "evaluation"
+      "via": "evaluations"
     },
     "study": {
       "type": "decimal",

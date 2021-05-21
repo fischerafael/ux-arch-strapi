@@ -84,9 +84,9 @@
       ],
       "default": "other"
     },
-    "evaluation": {
+    "evaluations": {
       "via": "user",
-      "model": "evaluation"
+      "collection": "evaluation"
     }
   }
 }
