@@ -33,16 +33,19 @@
       "targetField": "name",
       "required": true
     },
-    "situation_high": {
+    "evaluations": {
+      "collection": "evaluation",
+      "via": "project"
+    },
+    "level_low": {
       "type": "integer",
-      "required": true,
       "default": 0
     },
-    "situation_level": {
+    "level_same": {
       "type": "integer",
       "default": 0
     },
-    "situation_low": {
+    "level_high": {
       "type": "integer",
       "default": 0
     },
@@ -50,51 +53,76 @@
       "type": "integer",
       "default": 0
     },
-    "type_exterior": {
-      "type": "integer",
-      "default": 0
-    },
     "type_transition": {
       "type": "integer",
       "default": 0
     },
-    "size_very_small": {
+    "type_exterior": {
       "type": "integer",
       "default": 0
     },
-    "size_small": {
+    "size_5": {
       "type": "integer",
       "default": 0
     },
-    "size_medium": {
+    "size_15": {
       "type": "integer",
       "default": 0
     },
-    "size_big": {
+    "size_50": {
       "type": "integer",
       "default": 0
     },
-    "size_very_big": {
+    "size_100": {
+      "type": "integer",
+      "default": 0
+    },
+    "size_500": {
+      "type": "integer",
+      "default": 0
+    },
+    "size_500plus": {
+      "type": "integer",
+      "default": 0
+    },
+    "height_no": {
+      "type": "integer",
+      "required": false,
+      "default": 0
+    },
+    "height_1": {
+      "type": "integer",
+      "default": 0
+    },
+    "height_2": {
+      "type": "integer",
+      "default": 0
+    },
+    "height_8": {
+      "type": "integer",
+      "default": 0
+    },
+    "height_30": {
+      "type": "integer",
+      "default": 0
+    },
+    "height_30plus": {
       "default": 0,
       "type": "integer"
     },
-    "height_low": {
+    "volume_1": {
       "type": "integer",
       "default": 0
     },
-    "height_medium": {
+    "volume_3": {
       "type": "integer",
       "default": 0
     },
-    "height_high": {
+    "volume_7": {
       "type": "integer",
       "default": 0
     },
-    "height_no_height": {
-      "type": "integer",
-      "default": 0
-    },
-    "composition_ortho": {
+    "volume_7plus": {
       "type": "integer",
       "default": 0
     },
@@ -102,173 +130,172 @@
       "type": "integer",
       "default": 0
     },
-    "composition_single_volume": {
+    "composition_mixed": {
       "type": "integer",
       "default": 0
     },
-    "composition_few_volumes": {
+    "composition_geometric": {
       "type": "integer",
       "default": 0
     },
-    "composition_many_volumes": {
+    "open_25": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "open_50": {
       "type": "integer",
       "default": 0
     },
-    "materials_natural": {
+    "open_75": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "open_100": {
       "type": "integer",
       "default": 0
     },
-    "materials_artifitial": {
+    "material_natural": {
       "type": "integer",
       "default": 0
     },
-    "texture_smooth": {
+    "material_mixed": {
       "type": "integer",
       "default": 0
     },
-    "texture_rough": {
+    "material_artificial": {
       "type": "integer",
       "default": 0
-    },
-    "tone_greyscale": {
-      "type": "integer",
-      "default": 0
-    },
-    "tone_vivid": {
-      "type": "integer",
-      "default": 0
-    },
-    "tone_pastel": {
-      "type": "integer",
-      "default": 0
-    },
-    "evaluations": {
-      "collection": "evaluation",
-      "via": "project"
     },
     "color_red": {
-      "type": "decimal",
+      "type": "integer",
       "default": 0
     },
     "color_orange": {
-      "type": "decimal",
+      "type": "integer",
       "default": 0
     },
     "color_yellow": {
-      "type": "decimal",
+      "type": "integer",
       "default": 0
     },
     "color_green": {
-      "type": "decimal",
+      "type": "integer",
       "default": 0
     },
     "color_blue": {
-      "type": "decimal",
+      "type": "integer",
       "default": 0
     },
     "color_purple": {
-      "type": "decimal",
+      "type": "integer",
       "default": 0
     },
     "color_pink": {
-      "type": "decimal"
+      "type": "integer",
+      "default": 0
     },
     "color_white": {
-      "type": "decimal",
+      "type": "integer",
       "default": 0
     },
     "color_black": {
-      "type": "decimal",
+      "type": "integer",
       "default": 0
     },
     "light_intense": {
-      "type": "decimal",
+      "type": "integer",
       "default": 0
     },
     "light_medium": {
-      "type": "decimal",
-      "default": 0
-    },
-    "light_focused": {
-      "type": "decimal",
-      "default": 0
-    },
-    "light_spread": {
-      "type": "decimal",
-      "default": 0
+      "type": "biginteger",
+      "default": "0"
     },
     "light_low": {
-      "type": "decimal",
+      "type": "biginteger",
+      "default": "0"
+    },
+    "source_focused": {
+      "type": "integer",
       "default": 0
     },
-    "population_intense": {
-      "type": "decimal",
+    "source_spread": {
+      "type": "integer",
+      "default": 0
+    },
+    "source_mixed": {
+      "type": "integer",
+      "default": 0
+    },
+    "version": {
+      "type": "string",
+      "required": true,
+      "default": "version vision"
+    },
+    "population_low": {
+      "type": "integer",
       "default": 0
     },
     "population_medium": {
-      "type": "decimal",
+      "type": "integer",
       "default": 0
     },
-    "population_low": {
-      "type": "decimal",
+    "population_high": {
+      "type": "integer",
       "default": 0
     },
-    "movement_intense": {
-      "type": "decimal",
+    "movement_low": {
+      "type": "integer",
       "default": 0
     },
     "movement_medium": {
-      "type": "decimal"
+      "type": "integer",
+      "default": 0
     },
-    "movement_low": {
-      "type": "decimal"
-    },
-    "period_day": {
-      "type": "decimal"
-    },
-    "period_night": {
-      "type": "decimal"
+    "movement_high": {
+      "type": "integer",
+      "default": 0
     },
     "weather_sun": {
-      "type": "decimal"
-    },
-    "weather_rain": {
-      "type": "decimal"
+      "type": "integer",
+      "default": 0
     },
     "weather_cloud": {
-      "type": "decimal"
+      "type": "integer",
+      "default": 0
+    },
+    "weather_rain": {
+      "type": "integer",
+      "default": 0
     },
     "weather_snow": {
-      "type": "decimal"
+      "type": "biginteger",
+      "default": "0"
     },
     "weather_fog": {
-      "type": "decimal"
+      "type": "biginteger",
+      "default": "0"
     },
-    "season_summer": {
-      "type": "decimal"
-    },
-    "season_spring": {
-      "type": "decimal"
-    },
-    "season_winter": {
-      "type": "decimal"
-    },
-    "season_fall": {
-      "type": "decimal"
-    },
-    "context_fields": {
+    "period_day": {
       "type": "integer",
       "default": 0
     },
-    "context_city_low": {
+    "period_night": {
       "type": "integer",
       "default": 0
     },
-    "context_city_medium": {
+    "context_country": {
       "type": "integer",
       "default": 0
     },
-    "context_city_high": {
+    "context_urban_low": {
+      "type": "integer",
+      "default": 0
+    },
+    "context_urban_medium": {
+      "type": "integer",
+      "default": 0
+    },
+    "context_urban_high": {
       "type": "integer",
       "default": 0
     },
@@ -276,11 +303,11 @@
       "type": "integer",
       "default": 0
     },
-    "context_mountain": {
+    "context_desert": {
       "type": "integer",
       "default": 0
     },
-    "context_water": {
+    "context_mountain": {
       "type": "integer",
       "default": 0
     },
@@ -288,13 +315,46 @@
       "type": "integer",
       "default": 0
     },
-    "context_desert": {
+    "context_landmark": {
+      "type": "integer",
+      "required": false,
+      "default": 0
+    },
+    "context_famous": {
       "type": "integer",
       "default": 0
     },
-    "context_landmark": {
+    "ornament_low": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "ornament_medium": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "ornament_high": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "access_public": {
       "type": "integer",
       "default": 0
+    },
+    "access_semi": {
+      "type": "integer",
+      "default": 0
+    },
+    "access_private": {
+      "type": "integer",
+      "default": 0
+    },
+    "color_grey": {
+      "type": "integer",
+      "default": 0
+    },
+    "short_description": {
+      "type": "string",
+      "required": true
     }
   }
 }
