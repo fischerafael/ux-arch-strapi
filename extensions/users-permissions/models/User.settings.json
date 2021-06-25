@@ -59,34 +59,13 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "status": {
-      "type": "enumeration",
-      "enum": [
-        "client",
-        "architect"
-      ],
-      "required": true,
-      "default": "client"
-    },
-    "name": {
+    "architect_name": {
       "type": "string",
       "required": true
     },
-    "birth_year": {
-      "type": "integer"
-    },
-    "gender": {
-      "type": "enumeration",
-      "enum": [
-        "male",
-        "female",
-        "other"
-      ],
-      "default": "other"
-    },
-    "evaluations": {
-      "via": "user",
-      "collection": "evaluation"
+    "project_name": {
+      "type": "string",
+      "required": true
     }
   }
 }
