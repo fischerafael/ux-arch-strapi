@@ -70,6 +70,10 @@
     "client": {
       "via": "architect",
       "model": "client"
+    },
+    "projects": {
+      "via": "architect",
+      "collection": "projects"
     }
   }
 }

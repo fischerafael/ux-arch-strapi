@@ -1,0 +1,137 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "projects",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "project_name": {
+      "type": "string",
+      "required": true
+    },
+    "project_location": {
+      "type": "string",
+      "required": true
+    },
+    "project_thumbnail": {
+      "type": "string",
+      "required": true
+    },
+    "project_type": {
+      "type": "enumeration",
+      "enum": [
+        "reference",
+        "design"
+      ],
+      "required": true,
+      "default": "reference"
+    },
+    "client_evaluation": {
+      "type": "float",
+      "default": 0.5
+    },
+    "predicted_evaluation": {
+      "type": "float",
+      "default": 0.5
+    },
+    "height": {
+      "type": "float",
+      "default": 0.5
+    },
+    "size": {
+      "type": "float",
+      "default": 0.5
+    },
+    "elements": {
+      "type": "float",
+      "default": 0.5
+    },
+    "shape": {
+      "type": "float",
+      "default": 0.5
+    },
+    "materials": {
+      "type": "float",
+      "default": 0.5
+    },
+    "texture": {
+      "type": "float",
+      "default": 0.5
+    },
+    "tone": {
+      "type": "float",
+      "default": 0.5
+    },
+    "primary_color": {
+      "type": "float",
+      "default": 0.5
+    },
+    "secondary_color": {
+      "type": "float",
+      "default": 0.5
+    },
+    "tertiary_color": {
+      "type": "float",
+      "default": 0.5
+    },
+    "opennings": {
+      "type": "float",
+      "default": 0.5
+    },
+    "light": {
+      "type": "float",
+      "default": 0.5
+    },
+    "contrast": {
+      "type": "float",
+      "default": 0.5
+    },
+    "opacity": {
+      "type": "float",
+      "default": 0.5
+    },
+    "movement": {
+      "type": "float",
+      "default": 0.5
+    },
+    "people": {
+      "type": "float",
+      "default": 0.5
+    },
+    "context": {
+      "type": "float",
+      "default": 0.5
+    },
+    "landmark": {
+      "type": "float",
+      "default": 0.5
+    },
+    "context_interest": {
+      "type": "float",
+      "default": 0.5
+    },
+    "time": {
+      "type": "float",
+      "default": 0.5
+    },
+    "weather": {
+      "type": "float",
+      "default": 0.5
+    },
+    "temperature": {
+      "type": "float"
+    },
+    "architect": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "projects"
+    }
+  }
+}
