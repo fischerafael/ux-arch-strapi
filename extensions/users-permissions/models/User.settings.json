@@ -66,6 +66,10 @@
     "project_name": {
       "type": "string",
       "required": true
+    },
+    "client": {
+      "via": "architect",
+      "model": "client"
     }
   }
 }

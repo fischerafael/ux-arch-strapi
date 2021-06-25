@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "name": "client",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "profession": {
+      "type": "string",
+      "required": true
+    },
+    "birth_year": {
+      "type": "biginteger",
+      "required": true
+    },
+    "gender": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": false
+    },
+    "architect": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "client"
+    }
+  }
+}
